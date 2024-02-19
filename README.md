@@ -8,7 +8,7 @@ docker compose up -d
 
 2. Rename the .env.example to .env
 3. Replace the values of the .env file with the values of the .env.example file
-4. Run seed to [create local db](localhost:3000/api/seed)
+4. Run seed to [create local db]( http://localhost:3000/api/seed)
 
 
 # Prisma commnads
