@@ -1,5 +1,11 @@
 import { ReactNode } from "react";
 import { Sidebar, TopMenu } from "@/components";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Dashboard Layout",
+  description: "Dashboard layout for the application",
+};
 
 export default function DashboardLayout({ children }: { children: ReactNode }) {
   return (
